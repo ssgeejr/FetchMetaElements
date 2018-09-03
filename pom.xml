@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.ioexcept</groupId>
+		<artifactId>ArchAngel</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+	<groupId>org.pasedb.service</groupId>
+	<artifactId>FetchMetaElements</artifactId>
+	<version>1.0</version>
+	<packaging>war</packaging>
+	<name>FetchMetaElements Maven Webapp</name>
+	<url>http://maven.apache.org</url>
+
+	<build>
+		<finalName>FetchMetaElements</finalName>
+		<sourceDirectory>src</sourceDirectory>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.3</version>
+				<configuration>
+					<source />
+					<target />
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+
+	<!-- https://www.mkyong.com/java/jsoup-html-parser-hello-world-examples/ -->
+	<!-- https://github.com/johndeverall/opengraph-java/blob/master/examples/backtothefuture/src/BackToTheFuture.java -->
+	<dependencies>
+
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.10.2</version>
+		</dependency>
+	</dependencies>
+
+</project>
